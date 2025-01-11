@@ -40,11 +40,16 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Source Sans Pro', sans-serif;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff; }
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: #bb86fc; }
 
 li {
   list-style: none; }
@@ -137,8 +142,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background: #bb86fc;
+  color: #121212;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -155,12 +160,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
-    color: #fff; }
+    background: #bb86fc;
+    color: #121212; }
   .btn--theme-inv {
-    color: #0062b9;
-    background: #fff;
-    border: 2px solid #0062b9;
+    color: #bb86fc;
+    background: #121212;
+    border: 2px solid #bb86fc;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -185,8 +190,10 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
@@ -247,7 +254,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #1f1f1f; }
   .about__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -265,7 +272,7 @@ textarea {
           font-size: 2.4rem; } }
     .about__content-details-para {
       font-size: 1.8rem;
-      color: grey;
+      color: #b0b0b0;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 1rem; }
@@ -314,7 +321,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
-      color: grey;
+      color: #b0b0b0;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -323,9 +330,10 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-repeat: no-repeat; }
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
@@ -404,9 +412,10 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
@@ -497,8 +506,7 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
-  background: #fff;
+  background: #1f1f1f;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -548,13 +556,13 @@ textarea {
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #bb86fc; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -571,7 +579,7 @@ textarea {
   .header__main-ham-menu-close {
     width: 100%; }
   .header__sm-menu {
-    background: #fff;
+    background: #1f1f1f;
     position: absolute;
     width: 100%;
     top: 100%;
@@ -593,7 +601,7 @@ textarea {
     text-decoration: none;
     padding: 2.5rem 3rem;
     font-size: 1.6rem;
-    color: #333;
+    color: #ffffff;
     text-align: right;
     border-bottom: 1px solid #eee;
     font-weight: 700;
@@ -601,15 +609,15 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #0062b9; }
+      color: #bb86fc; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
 .main-footer {
-  background: #000;
-  color: #fff; }
+  background: #1f1f1f;
+  color: #ffffff; }
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
@@ -634,7 +642,7 @@ textarea {
         width: 100%; } }
   .main-footer__short-desc {
     margin-top: 2rem;
-    color: #eee;
+    color: #b0b0b0;
     font-size: 1.5rem;
     line-height: 1.7; }
   .main-footer__social-cont {
@@ -647,7 +655,7 @@ textarea {
   .main-footer__lower {
     padding: 4rem 0;
     border-top: 1px solid #444;
-    color: #eee;
+    color: #ffffff;
     font-size: 1.2rem;
     text-align: left;
     text-align: center; }
@@ -667,10 +675,10 @@ textarea {
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     font-size: 1.6rem;
-    background: rgba(153, 153, 153, 0.2);
+    background: rgba(187, 134, 252, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: #ffffff; }
 
 .mouse {
   width: 25px;
