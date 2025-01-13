@@ -682,6 +682,31 @@ textarea {
     font-weight: 600;
     color: #ffffff; }
 
+.skills__skill--expanded {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: none;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.cta__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .mouse {
   width: 25px;
   height: 40px;
